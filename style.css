@@ -460,6 +460,10 @@ textarea {
 .hero-text {
     width: 50%;
 }
+    .hero-image img {
+    width: 300px !important;
+    height: auto !important;
+}
     
 
     
