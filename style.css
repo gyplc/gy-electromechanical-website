@@ -446,13 +446,8 @@ textarea {
     padding: 50px;
 }
 
-.hero-image {
-    width: 50%;
-}
-
 .hero-image img {
     width: 100%;
-    max-width: 450px;
     height: auto;
     border-radius: 10px;
 }
@@ -460,10 +455,7 @@ textarea {
 .hero-text {
     width: 50%;
 }
-    .hero-image img {
-    width: 300px !important;
-    height: auto !important;
-}
+    
     
 
     
