@@ -442,34 +442,24 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px;
-}
-
-.hero-image img {
-    width: 400px;
-}
-
-.hero-text {
-    width: 50%;
-}
-    .hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     gap: 40px;
     padding: 50px;
 }
 
+.hero-image {
+    width: 50%;
+}
+
 .hero-image img {
-    width: 450px;
+    width: 100%;
+    max-width: 450px;
     height: auto;
     border-radius: 10px;
 }
 
 .hero-text {
-    max-width: 500px;
+    width: 50%;
 }
- 
     
 
     
