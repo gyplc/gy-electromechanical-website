@@ -454,5 +454,28 @@ textarea {
     width: 400px;
     height: auto;
 }
+    .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 40px;
+}
+
+.hero-image {
+    width: 40%;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.hero-text {
+    width: 50%;
+}
+    
 
     
