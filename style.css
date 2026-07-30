@@ -439,6 +439,10 @@ textarea {
         text-align: center;
     }
 
+.hero-image{
+    display: flex;
+    align-items:center;
+    
 }
 
     
