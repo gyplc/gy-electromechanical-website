@@ -438,29 +438,23 @@ textarea {
         padding: 20px;
         text-align: center;
     }
-
- .hero {
+.hero {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     padding: 50px;
-    gap: 40px;
-}
-
-.hero-image {
-    width: 40%;
 }
 
 .hero-image img {
-    width: 100%;
-    max-width: 450px;
-    height: auto;
-    border-radius: 10px;
+    width: 400px;
 }
 
 .hero-text {
     width: 50%;
 }
+ 
+    
+
     
 
     
