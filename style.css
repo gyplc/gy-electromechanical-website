@@ -371,7 +371,8 @@ textarea {
 }
 
 .hero-image img {
-    width: 200px;
+    width: 350px;      /* Bigger on PC */
+    max-width: 100%;
     height: auto;
     border-radius: 10px;
 }
@@ -414,6 +415,17 @@ textarea {
     .service-box{
     width: 30%;
 }
+@media (max-width: 768px) {
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image img {
+        width: 180px;   /* Smaller on phones */
+    }
+
 
 
     /* About page */
