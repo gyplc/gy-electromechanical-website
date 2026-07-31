@@ -362,6 +362,29 @@ textarea {
     background-color: #cc6500;
     transform: translateY(-3px);
 }
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 50px;
+}
+
+.hero-image img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.about img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
 @media (max-width: 768px) {
 
     /* Navigation */
@@ -438,34 +461,6 @@ textarea {
         padding: 20px;
         text-align: center;
     }
-.hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 40px;
-    padding: 50px;
 }
-
-.hero img {
-    width: 200px;
-    height: auto;
-    border-radius: 10px;
-}
-
-.hero-text {
-    width: 50%;
-}
-.about img {
-    width: 200px;
-    height: auto;
-    border-radius: 10px;
-}
-    .hero-image img {
-    width: 100%;
-}
-    
-    
-
-    
 
     
