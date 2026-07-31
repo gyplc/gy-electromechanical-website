@@ -385,6 +385,12 @@ textarea {
     height: auto;
     border-radius: 10px;
 }
+.service-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
 @media (max-width: 768px) {
 
     /* Navigation */
@@ -405,6 +411,9 @@ textarea {
         align-items: center;
         gap: 15px;
     }
+    .service-box{
+    width: 30%;
+}
 
 
     /* About page */
