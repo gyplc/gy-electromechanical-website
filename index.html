@@ -125,7 +125,15 @@
     <p>© 2026 GY Electromechanical Works P.L.C</p>
 
 </footer>
+<script>
+const form = document.getElementById("contact-form");
 
+form.addEventListener("submit", function(){
+    setTimeout(function(){
+        window.location.href = "thankyou.html";
+    }, 1000);
+});
+</script>
 
 
 </body>
