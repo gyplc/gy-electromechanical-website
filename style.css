@@ -102,7 +102,21 @@ button:hover {
     padding: 60px 40px;
     text-align: center;
 }
-
+.commitment p{
+    padding:40px 40px
+     mergin:auto;   
+}
+.commitment h2{
+    font-size:40px;
+    color:#003366;
+}
+.commitment img{
+    display:flex;
+    gap:30px;
+    width:500px;
+    height:auto;
+    max-width:100%;
+} 
 .company-profile-text {
     max-width: 900px;
     margin: auto;
