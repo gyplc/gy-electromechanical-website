@@ -87,7 +87,10 @@ button:hover {
     justify-content:center;
     gap:50px;
 }
-
+.about-image img{
+    max-width: 300px;
+    height: auto;
+}
 .about-intro img {
     width: 450px;
     max-width: 100%;
