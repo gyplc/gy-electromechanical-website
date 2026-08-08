@@ -7,8 +7,8 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #222;
-    background-color: #fff;
+    color: #000000;
+    background-color: #ffffff;
 }
 
 .nav {
@@ -17,18 +17,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 25px;
     padding: 20px ;
 }
 
 nav a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    background-color:#003366;
+    color:#ffffff;
 }
 
 button {
@@ -45,11 +45,10 @@ button:hover {
 }
 .hero {
     min-height: 80vh;
-
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:40px
+    gap:40px;
     padding: 60px 40px;
 }
 
@@ -59,7 +58,7 @@ button:hover {
 }
 
 .hero-text h1 {
-    font-size: 50px;
+    font-size: 60px;
     color: #003366;
     margin-bottom: 20px;
 }
@@ -81,6 +80,12 @@ button:hover {
     gap: 50px;
 
     padding: 60px 40px;
+}
+.about{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:50px;
 }
 
 .about-intro img {
@@ -135,7 +140,11 @@ button:hover {
 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-
+.service-card:hover{
+    background-color:#003366;
+    color:#f5f5f5;
+    transform:translateyz(-10px);
+}
 .service-card img {
     width: 450px;
     max-width: 100%;
@@ -181,7 +190,7 @@ button:hover {
 .mission h2,
 .vision h2 {
     color: #003366;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .why-us {
     padding: 60px 40px;
@@ -300,8 +309,8 @@ button:hover {
 }
 
 footer {
-    background-color: #111;
-    color: #fff;
+    background-color: #000000;
+    color: #ffffff;
     text-align: center;
     padding: 40px 20px;
 }
