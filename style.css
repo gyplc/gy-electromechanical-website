@@ -12,9 +12,8 @@ body {
 }
 
 nav {
-    background-color: #ff0500;
+    background-color: #f57coo;
     color: #f5f5f5;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,7 +50,7 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    gap:40px
     padding: 60px 40px;
 }
 
@@ -139,10 +138,9 @@ button:hover {
 }
 
 .service-card img {
-    width: 100%;
-    max-width: 250px;
+    width: 450px;
+    max-width: 100%;
     height: auto;
-    border-radius: 8px;
 }
 
 .service-card h2 {
