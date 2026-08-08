@@ -10,21 +10,25 @@ body {
     color: #000000;
     background-color: #ffffff;
 }
-
 nav {
-    background-color: #f57coo;
-    color: #003366;
+    background-color: #f57c00;
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 20px ;
+    justify-content: space-between;
+    padding: 20px 40px;
 }
 
-nav a {
-    color: #ffffff;
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
     text-decoration: none;
     font-weight: bold;
 }
+
 
 nav a:hover {
     background-color:#003366;
