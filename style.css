@@ -19,11 +19,11 @@ nav {
     justify-content: center;
     gap: 25px;
 
-    padding: 20px;
+    padding: 20px 40px;
 }
 
 nav a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
 }
@@ -42,7 +42,7 @@ button {
 
 button:hover {
     background-color: #ff0500;
-    color: #fff;
+    color: #ffffff;
 }
 .hero {
     min-height: 80vh;
