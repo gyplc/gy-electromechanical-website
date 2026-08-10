@@ -97,10 +97,11 @@ button:hover {
     align-items:center;
     justify-content:center;
     gap:50px;
-}
+}    
 .about-image img{
     max-width: 300px;
     height: auto;
+    padding:20px;
 }
 .about-intro img {
     width: 450px;
@@ -117,12 +118,13 @@ button:hover {
     text-align: center;
 }
 .commitment p{
-    padding:40px 40px
+    padding:20px;
      mergin:auto;   
 }
 .commitment h2{
     font-size:40px;
     color:#003366;
+    padding:20px;
 }
 .commitment img{
     display:flex;
@@ -130,6 +132,7 @@ button:hover {
     width:500px;
     height:auto;
     max-width:100%;
+    padding:20px;
 } 
 .company-profile-text {
     max-width: 900px;
