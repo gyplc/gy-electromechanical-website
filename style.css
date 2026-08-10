@@ -101,7 +101,7 @@ button:hover {
 .about-image img{
     max-width: 300px;
     height: auto;
-    padding:20px;
+    padding:30px;
 }
 .about-intro img {
     width: 450px;
@@ -122,9 +122,10 @@ button:hover {
      mergin:auto;   
 }
 .commitment h2{
+    align-items:center;
     font-size:40px;
     color:#003366;
-    padding:20px;
+    padding:30px;
 }
 .commitment img{
     display:flex;
@@ -132,7 +133,7 @@ button:hover {
     width:500px;
     height:auto;
     max-width:100%;
-    padding:20px;
+    padding:30px;
 } 
 .company-profile-text {
     max-width: 900px;
@@ -296,7 +297,7 @@ button:hover {
     width: 100%;
     padding: 12px;
     margin-bottom: 15px;
-
+    align-items:center;
     border: 1px solid #ccc;
     border-radius: 6px;
 }
