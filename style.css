@@ -114,16 +114,17 @@ button:hover {
 }
 
 .company-profile {
-    padding: 60px 40px;
+    padding: 40px 40px;
     text-align: center;
+    font-size:4opx;
 }
 .commitment p{
-    padding:20px;
+    padding:30px;
      mergin:auto;   
 }
 .commitment h2{
     align-items:center;
-    font-size:40px;
+    font-size:30px;
     color:#003366;
     padding:30px;
 }
@@ -305,6 +306,8 @@ button:hover {
 .contact textarea {
     min-height: 150px;
     resize: vertical;
+    align-items:center;
+    justify-content:center;
 }
 .certificates {
     padding: 60px 40px;
