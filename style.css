@@ -144,6 +144,7 @@ button:hover {
 .company-profile h1 {
     color: #003366;
     margin-bottom: 20px;
+    font-size:40px;
 }
 .services {
     text-align: center;
