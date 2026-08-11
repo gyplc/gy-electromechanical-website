@@ -99,7 +99,7 @@ button:hover {
     gap:50px;
 }    
 .about-image img{
-    max-width: 300px;
+    max-width: 400px;
     height: auto;
     padding:30px;
 }
@@ -127,8 +127,7 @@ button:hover {
     display:flex;
 }
 .commitment p{
-    padding:30px;
-     mergin:auto;   
+    padding:30px;   
 }
 .commitment h2{
     align-items:center;
