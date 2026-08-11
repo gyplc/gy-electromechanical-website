@@ -203,7 +203,10 @@ button:hover {
     max-width: 900px;
     margin: 0 auto 50px;
 }
-
+.service-card {
+    text-decoration: none;
+    color: inherit;
+}
 .service-text h2 {
     color: #003366;
     font-size: 40px;
