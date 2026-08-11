@@ -162,16 +162,20 @@ button:hover {
     flex-wrap: wrap;
     gap: 30px;
 }
-
 .service-card {
+    display: block;
     width: 300px;
     padding: 25px;
+    box-sizing: border-box;
+
     background-color: #f5f5f5;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
     text-decoration: none;
     color: inherit;
 }
+
 .service-card:hover{
     background-color:#003366;
     color:#f5f5f5;
@@ -201,10 +205,6 @@ button:hover {
 .service-text {
     max-width: 900px;
     margin: 0 auto 50px;
-}
-.service-card {
-    text-decoration: none;
-    color: inherit;
 }
 .service-text h2 {
     color: #003366;
