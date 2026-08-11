@@ -118,6 +118,14 @@ button:hover {
     text-align: center;
     font-size:40px;
 }
+.commitment-image img{
+    max-width:300px;
+    height:auto;
+    padding:30px;
+}
+.commitment{
+    display:flex;
+}
 .commitment p{
     padding:30px;
      mergin:auto;   
