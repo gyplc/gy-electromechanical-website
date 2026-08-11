@@ -293,7 +293,9 @@ button:hover {
 }
 
 .contact form {
-    width: 40%;
+    width: 100%;
+    max-width:500px;
+    margin:0 auto;  
 }
 
 .contact input,
