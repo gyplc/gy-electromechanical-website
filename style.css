@@ -229,13 +229,17 @@ button:hover {
     max-width: 1000px;
     margin: auto;
 }
-.who are we? h1{
-  font-size:30px;
-    justify-content:center;
-    align-items:center;
+.who-are-we {
+    padding:30px 50px;
 }
-.who are we? p{
-    padding:40px;
+.who-are-we h1{
+    text-align:center;
+    margin-bottom:20px;
+    font-size:30px;
+}
+.who-are-we p{
+    padding: 0 20px;
+    line-height:1.7;
 }
 .mission h2,
 .vision h2 {
@@ -243,18 +247,17 @@ button:hover {
     margin-bottom: 20px;
 }
 .Quality-policy h1{
-   font-size:30px;
-    justify-content:center;
-    align-items:center;
+  text-align:center;
+    margin-bottom:15px;
 }
 .Quality-policy p{
-    padding:30px;
+    padding: 0 20px;
+    line-height:1.7;
+    margin-bottom:20px;
 }
 .core-values{
-    padding:40px;
-}
-.core-values h1{
-    font-size:30px;
+    padding: 0 20px;
+    margin-top:10px;
 }
 .why-us {
     padding: 60px 40px;
