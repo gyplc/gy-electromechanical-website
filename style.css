@@ -229,13 +229,13 @@ button:hover {
     max-width: 1000px;
     margin: auto;
 }
-.who are we h1{
+.who are we? h1{
   font-size:30px;
     justify-content:center;
     align-items:center;
 }
 .who are we p{
-    padding:30px;
+    padding:40px;
 }
 .mission h2,
 .vision h2 {
@@ -251,7 +251,10 @@ button:hover {
     padding:30px;
 }
 .core-values{
-    padding:30px;
+    padding:40px;
+}
+.core-values h1{
+    font-size:20px;
 }
 .why-us {
     padding: 60px 40px;
