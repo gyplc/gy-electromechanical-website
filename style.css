@@ -252,13 +252,14 @@ button:hover {
     font-size:40px;
 }
 .Quality-policy p{
-    padding: 0 20px;
+    padding: 0 30px;
     line-height:1.7;
     margin-bottom:20px;
 }
 .core-values{
     padding: 0 40px;
     margin-top:10px;
+    font-size:30px;
 }
 .why-us {
     padding: 60px 40px;
