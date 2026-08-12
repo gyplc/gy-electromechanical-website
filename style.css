@@ -235,7 +235,7 @@ button:hover {
 .who-are-we h1{
     text-align:center;
     margin-bottom:20px;
-    font-size:30px;
+    font-size:40px;
 }
 .who-are-we p{
     padding: 0 20px;
@@ -249,6 +249,7 @@ button:hover {
 .Quality-policy h1{
   text-align:center;
     margin-bottom:15px;
+    font-size:40px;
 }
 .Quality-policy p{
     padding: 0 20px;
@@ -256,7 +257,7 @@ button:hover {
     margin-bottom:20px;
 }
 .core-values{
-    padding: 0 20px;
+    padding: 0 40px;
     margin-top:10px;
 }
 .why-us {
