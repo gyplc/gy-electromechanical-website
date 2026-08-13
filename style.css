@@ -170,22 +170,19 @@ button:hover {
 
 .service-container {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
+    flex-direction:center;
+    gap: 40px;
 }
 .service-card {
-    display: block;
-    width: 300px;
-    padding: 25px;
-    box-sizing: border-box;
-
+   display:flex;
+    align-items:center;
+    gap:30px;
+    width:80%;
+    margin:0 auto;
+    padding:30px;
     background-color: #f5f5f5;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-
-    text-decoration: none;
-    color: inherit;
+    border-radius:12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.150);
 }
 
 .service-card:hover{
@@ -194,19 +191,19 @@ button:hover {
     transform:translateyz(-10px);
 }
 .service-card img {
-    width: 450px;
-    max-width: 100%;
-    height: auto;
+    width: 45%;
+    max-width: 450px;
+    border-radius:8px;
 }
 
 .service-card h2 {
-    font-size: 24px;
-    margin-bottom: 15px;
+   color: #003366;
 }
 
 .service-card ul {
     text-align: left;
     padding-left: 20px;
+    line-height:1.8;
 }
 
 .service-detail {
