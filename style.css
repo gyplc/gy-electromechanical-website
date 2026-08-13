@@ -170,7 +170,7 @@ button:hover {
 
 .service-container {
     display: flex;
-    flex-direction:center;
+    flex-direction:column;
     gap: 40px;
 }
 .service-card {
@@ -410,7 +410,7 @@ footer h3 {
     }
 
     .about-intro,
-    .service-items,
+    .service-container,
     .contact-container {
         flex-direction: column;
     }
