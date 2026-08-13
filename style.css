@@ -7,8 +7,10 @@
 h2{
     font-size:50px;
 }
-
-
+.logo{
+    font-weight:bold;
+    text-decoration:none;
+}
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
