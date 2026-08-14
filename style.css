@@ -173,7 +173,7 @@ button:hover {
     margin-bottom: 20px;
 }
 
-.services  p {
+.services >p {
     max-width: 800px;
     margin: 0 auto 40px;
     line-height: 1.7;
