@@ -469,8 +469,9 @@ footer h3 {
 .service-card h3,
 .service-card h4,
 .service-card h5 {
-    color: #003366;
+    color: #000000;
     margin-bottom: 15px;
+    font-size:20px;
 }
 
 .service-card p {
