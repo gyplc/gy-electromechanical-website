@@ -496,9 +496,6 @@ footer h3 {
     font-size: 18px;
     line-height: 1.7;
 }
-
-
-/* Project cards container */
 section.our-projects:nth-of-type(2) {
     width: 90%;
     max-width: 1200px;
@@ -508,9 +505,6 @@ section.our-projects:nth-of-type(2) {
     grid-template-columns: repeat(2, 1fr);
     gap: 35px;
 }
-
-
-/* Individual project card */
 .project-image {
     background-color: #f5f5f5;
     padding: 25px;
@@ -520,16 +514,10 @@ section.our-projects:nth-of-type(2) {
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
-
-/* Card hover */
 .project-image:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 22px rgba(0, 0, 0, 0.2);
 }
-
-
-/* Project images */
 .project-image img {
     width: 100%;
     height: 250px;
@@ -537,30 +525,18 @@ section.our-projects:nth-of-type(2) {
     border-radius: 8px;
     margin-bottom: 15px;
 }
-
-
-/* Project information */
 .project-image p {
     margin: 10px 0;
     line-height: 1.6;
     color: #333;
 }
-
-
-/* Make the first part of each information line stand out */
 .project-image p:first-of-type {
     font-weight: bold;
     color: #003366;
 }
-
-
-/* Arsi project has two images */
 .project-image img + img {
     margin-top: 10px;
 }
-
-
-/* Ready to work section */
 section:last-of-type {
     text-align: center;
     padding: 60px 20px;
@@ -647,6 +623,85 @@ section:last-of-type a {
     line-height: 1.6;
     color: #003366;
     font-weight: 500;
+}
+.certificates {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+}
+.certificates-intro h1 {
+    color: #003366;
+    font-size: 42px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.certificates-intro p {
+    max-width: 800px;
+    margin: 0 auto 50px;
+    font-size: 19px;
+    line-height: 1.7;
+    color: #333;
+}
+.certificate-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+}
+.certificate-card {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+.certificate-card img {
+    display: block;
+    width: 80%;
+    max-width: 850px;
+    height: auto;
+    margin: 0 auto 25px;
+    border-radius: 8px;
+}
+.certificate-card p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #003366;
+    font-weight: 500;
+}
+
+.certificates-contact {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.contact-us {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.contact-us p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contact-us a {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #003366;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.contact-us a:hover {
+    background-color: #ff8c00;
 }
 @media (max-width: 760px) {
 
