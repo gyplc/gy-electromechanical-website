@@ -112,6 +112,13 @@ button:hover {
     max-width: 100%;
     border-radius: 10px;
 }
+.home-photo img {
+    display: block;
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
 
 .about-intro div {
     max-width: 500px;
