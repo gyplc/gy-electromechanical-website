@@ -154,11 +154,18 @@ button:hover {
     max-width:100%;
     padding:30px;
 } 
-.work-photo-container img {
+.work-photo-container  {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
+}
+.work-photo-container img {
+    width: 350px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
 }
 .company-profile-text {
     max-width: 900px;
