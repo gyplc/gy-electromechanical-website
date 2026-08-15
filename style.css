@@ -703,6 +703,35 @@ section:last-of-type a {
 .contact-us a:hover {
     background-color: #ff8c00;
 }
+
+
+footer {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 45px 20px 30px;
+    margin: 60px 0 0 0;
+}
+
+footer h3 {
+    margin: 0 0 20px;
+    font-size: 24px;
+    color: #fff;
+}
+
+footer p {
+    margin: 15px 0;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #fff;
+}
+
+footer p:last-child {
+    margin-top: 30px;
+    font-size: 16px;
+}
 @media (max-width: 760px) {
 
     nav {
