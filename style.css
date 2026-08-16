@@ -1037,38 +1037,7 @@ section:first-of-type h2 {
 }
 
 @media (max-width: 760px) {
-    nav {
-        width: 100%;
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 12px 5px;
-        gap: 10px;
-        overflow: hidden;
-    }
-   nav .logo,
-    nav h2 {
-        width: 100%;
-        box-sizing: border-box;
-        text-align: center;
-        margin: 0;
-        font-size: 22px;
-    }
 
-    nav a:not(.logo) {
-        font-size: 12px;
-        padding: 5px 4px;
-        white-space: nowrap;
-    }
-    .hero {
-        min-height: auto;
-        padding: 25px 15px;
-        flex-direction: column;
-        gap: 25px;
-        text-align: center;
-    }
     .about {
         width: 90%;
         margin: 0 auto;
@@ -1174,6 +1143,30 @@ section:first-of-type h2 {
         font-size: 12px;
         white-space: nowrap;
     }
+     nav {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 12px 8px;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    nav .logo {
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+
+    nav > a:not(.logo) {
+        font-size: 12px;
+        padding: 4px 3px;
+        white-space: nowrap;
+    }
 }
 .contact-title {
     text-align: center;
@@ -1183,5 +1176,12 @@ section:first-of-type h2 {
 .contact-section p {
     text-align: center;
     margin: 15px auto 30px;
+    line-height: 1.6;
+}
+.contact-title + p {
+    max-width: 800px;
+    margin: 0 auto 30px;
+    padding: 0 20px;
+    text-align: center;
     line-height: 1.6;
 }
