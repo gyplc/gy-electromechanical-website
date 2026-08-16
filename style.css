@@ -515,6 +515,13 @@ button:hover {
     height: auto;
     border-radius: 10px;
 }
+.certificate-closing h1 {
+    padding:30px 30px;
+    background-color:#003366;
+}
+.certifcate-closing p{
+    padding:20px;
+}
 .about-contact,
 .certificate-contact {
     padding: 60px 40px;
