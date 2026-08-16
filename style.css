@@ -307,6 +307,25 @@ button:hover {
     display: block;
     clear: both;
 }
+.service-detail {
+    text-align: center;
+}
+
+.service-text {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.service-text h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.service-text p {
+    text-align: center;
+    line-height: 1.7;
+}
 .home-service-container {
     display: flex;
     flex-wrap: wrap;
