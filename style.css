@@ -222,7 +222,20 @@ button:hover {
     flex-wrap: wrap;
     justify-content: center;
 }
+.team-photo {
+    width: 350px;
+}
 
+.team-photo img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.Quality-policy {
+    margin-top: 100px;
+}
 .company-profile h1 {
     color: #003366;
     margin-bottom: 20px;
