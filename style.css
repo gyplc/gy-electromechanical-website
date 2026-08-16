@@ -1280,3 +1280,16 @@ footer p:last-child {
     padding: 0 20px;
     line-height: 1.6;
 }
+.contact-title {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.contact-hero p,
+.contact-info {
+    text-align: center;
+    margin: 0 auto 25px;
+    padding: 0 20px;
+    line-height: 1.6;
+}
