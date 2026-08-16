@@ -154,6 +154,14 @@ button:hover {
     max-width:100%;
     padding:30px;
 } 
+.work-action h1{
+    font-size:30px;
+    padding:40px;
+    background-color:#003366;
+}
+.work-action p{
+    padding:20px;
+}
 .work-photo-container img {
     display: block;
     width: 70%;
