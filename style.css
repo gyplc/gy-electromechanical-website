@@ -1181,3 +1181,7 @@ footer p:last-child {
     line-height: 1.6;
     font-size: 17px;
 }
+.hero {
+    min-height: auto;
+    padding: 30px 20px;
+}
