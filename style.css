@@ -1272,3 +1272,17 @@ nav > a:not(.logo) {
         padding: 12px 20px;
     }
 }
+/* Contact buttons */
+.contact > a {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 15px 30px;
+    background-color: #ff8000;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.contact > a:hover {
+    background-color: #003366;
+}
