@@ -1274,4 +1274,9 @@ footer p:last-child {
     text-decoration: none;
     border-radius: 8px;
 }
-
+.contact-info {
+    text-align: center;
+    margin: 0 auto 25px auto;
+    padding: 0 20px;
+    line-height: 1.6;
+}
