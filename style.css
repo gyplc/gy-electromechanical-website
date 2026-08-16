@@ -1130,27 +1130,34 @@ section:first-of-type h2 {
         box-sizing: border-box;
     }
 nav {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 12px;
-        padding: 15px 10px;
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 10px !important;
+        padding: 15px 10px !important;
+        box-sizing: border-box !important;
+        overflow: hidden !important;
     }
 
     nav .logo {
-        width: 100%;
-        text-align: center;
-        margin-bottom: 10px;
+        display: block !important;
+        width: 100% !important;
+        text-align: center !important;
+        font-size: 22px !important;
+        margin: 0 0 10px 0 !important;
     }
 
-    nav a:not(.logo) {
-        display: block;
-        width: 100%;
-        text-align: center;
-        margin: 0;
-        padding: 8px 0;
+    nav > a:not(.logo) {
+        display: block !important;
+        width: 100% !important;
+        text-align: center !important;
+        font-size: 14px !important;
+        padding: 5px 0 !important;
+        margin: 0 !important;
+        white-space: nowrap !important;
     }
-
 }
 .contact-title {
     text-align: center;
