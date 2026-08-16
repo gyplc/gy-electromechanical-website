@@ -1186,12 +1186,25 @@ footer p:last-child {
     padding: 30px 20px;
 }
 @media (max-width: 760px) {
-    nav {
-        flex-direction: column;
-        align-items: center;
-        padding: 15px 10px;
-    }
+   nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 12px 8px;
+}
 
+nav .logo {
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+nav > a:not(.logo) {
+    font-size: 12px;
+    padding: 4px 3px;
+    white-space: nowrap;
+}
     nav h2 {
         font-size: 20px;
         text-align: center;
