@@ -990,24 +990,6 @@ footer p:last-child {
     padding: 30px 20px;
 }
 
-.contact-section {
-    text-align: center;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 40px 20px;
-}
-
-.contact-section h2,
-.contact-section h1 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.contact-section p {
-    text-align: center;
-    margin: 12px 0;
-}
-
 .contact-buttons {
     display: flex;
     justify-content: center;
@@ -1181,75 +1163,6 @@ nav {
         text-align: center;
     }
 
-    body > h1 {
-        text-align: center;
-        margin-top: 35px;
-        margin-bottom: 25px;
-    }
 
-    body > h1 + p {
-        max-width: 800px;
-        margin: 0 auto 35px;
-        padding: 0 20px;
-        text-align: center;
-        line-height: 1.6;
-    }
 
-    body > h2 {
-        text-align: center;
-        margin-top: 40px;
-        margin-bottom: 20px;
-    }
-
-    body > h2 + p,
-    body > h2 ~ p {
-        text-align: center;
-    }  
-}
-.contact-title {
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 35px;
-}
-.contact-section p {
-    text-align: center;
-    margin: 15px auto 30px;
-    line-height: 1.6;
-}
-body > h1 {
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 25px;
-}
-
-body > h1 + p {
-    max-width: 850px;
-    margin: 0 auto 40px;
-    padding: 0 20px;
-    text-align: center;
-    line-height: 1.6;
-}
-
-.contact-section {
-    text-align: center;
-}
-
-.contact-section h1,
-.contact-section h2 {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-
-.contact-section p {
-    text-align: center;
-    margin: 15px auto;
-    line-height: 1.6;
-}
-.contact-title ~ p {
-    text-align: center;
-    max-width: 750px;
-    margin: 20px auto;
-    padding: 0 15px;
-    box-sizing: border-box;
-}
+   
