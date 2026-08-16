@@ -939,7 +939,8 @@ footer p:last-child {
     }
 
     .hero {
-        padding: 40px 20px;
+        padding: 30px 20px;
+        min-height:auto;
     }
 
     .hero-text h1 {
