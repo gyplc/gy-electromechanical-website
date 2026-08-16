@@ -522,6 +522,20 @@ button:hover {
 .certifcates-closing p{
     padding:20px;
 }
+.certificates-closing {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.certificates-closing h2 {
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+.certificates-closing p {
+    font-size: 18px;
+    line-height: 1.6;
+}
 .about-contact,
 .certificate-contact {
     padding: 60px 40px;
