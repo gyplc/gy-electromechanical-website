@@ -1272,7 +1272,7 @@ nav > a:not(.logo) {
         padding: 12px 20px;
     }
 }
-/* Contact buttons */
+
 .contact > a {
     display: inline-block;
     margin: 10px 5px;
@@ -1285,4 +1285,32 @@ nav > a:not(.logo) {
 
 .contact > a:hover {
     background-color: #003366;
+}
+@media (max-width: 760px) {
+
+    nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        padding: 10px 5px;
+    }
+
+    nav .logo {
+        width: 100%;
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+
+    nav a:not(.logo) {
+        font-size: 12px;
+        padding: 4px 3px;
+        white-space: nowrap;
+    }
+
+    .contact > a {
+        margin: 8px 4px;
+        padding: 12px 18px;
+    }
 }
