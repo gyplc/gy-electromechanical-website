@@ -1222,3 +1222,53 @@ nav > a:not(.logo) {
         font-size: 12px;
     }
 }
+.contact-section {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.contact-section h2,
+.contact-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    text-align: center;
+    margin: 12px 0;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.contact-buttons a {
+    display: inline-block;
+    padding: 16px 30px;
+    background-color: #ff8000;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+@media (max-width: 760px) {
+    .contact-section {
+        padding: 30px 15px;
+    }
+
+    .contact-buttons {
+        gap: 12px;
+        margin-top: 30px;
+    }
+
+    .contact-buttons a {
+        padding: 12px 20px;
+    }
+}
