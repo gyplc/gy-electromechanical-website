@@ -931,6 +931,34 @@ footer p:last-child {
     text-align: center;
     line-height: 1.7;
 }
+nav {
+    background-color: #ff8000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav h2 {
+    margin: 0;
+    color: white;
+    font-size: 24px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
 @media (max-width: 760px) {
 
     nav {
@@ -1255,7 +1283,27 @@ footer p:last-child {
         padding: 5px;
         white-space: nowrap;
     }
+nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px 10px;
+        gap: 12px;
+    }
 
+    nav h2 {
+        text-align: center;
+        margin: 0 0 8px 0;
+        font-size: 22px;
+    }
+
+    nav a {
+        display: block;
+        margin: 0;
+        padding: 5px 0;
+        text-align: center;
+        font-size: 15px;
+    }
 }
 .contact-buttons {
     display: flex;
