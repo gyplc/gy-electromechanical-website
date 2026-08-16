@@ -154,7 +154,7 @@ button:hover {
     max-width:100%;
     padding:30px;
 } 
-.work-action h1{
+.work-action h2{
     font-size:30px;
     padding:40px;
     background-color:#003366;
@@ -178,9 +178,19 @@ button:hover {
     flex-wrap: wrap;
     justify-content: center;
 }
-.company-profile-text {
-    max-width: 900px;
-    margin: auto;
+.team-photo-container img{
+    display: block;
+    width: 70%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 0 auto;
+}
+.team-photo-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .company-profile h1 {
