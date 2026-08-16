@@ -155,15 +155,21 @@ button:hover {
     padding:30px;
 } 
 .work-photo-container img {
-    display: flex;
+    display: block;
     width: 70%;
     height: 280px;
     object-fit: cover;
     border-radius: 12px;
     margin: 0 auto;
-    flex-wrap: wrap;
+   
 }
 
+.work-photo-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .company-profile-text {
     max-width: 900px;
     margin: auto;
